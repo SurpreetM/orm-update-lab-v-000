@@ -29,7 +29,6 @@ class Student
       DROP TABLE students
     SQL
     DB[:conn].execute(sql)
-
   end
 
 
